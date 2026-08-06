@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#b30000" />
+      <stop offset="100%" stop-color="#7a0000" />
+    </linearGradient>
+    <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffe066" />
+      <stop offset="50%" stop-color="#ffb300" />
+      <stop offset="100%" stop-color="#cc8800" />
+    </linearGradient>
+  </defs>
+  
+  <rect width="120" height="120" rx="24" fill="url(#bg)" />
+  
+  <!-- Outer thin circle -->
+  <circle cx="60" cy="60" r="46" fill="none" stroke="url(#gold)" stroke-width="2" opacity="0.8" />
+  
+  <!-- Trishul Design -->
+  <g stroke="url(#gold)" stroke-linecap="round" stroke-linejoin="round" fill="none">
+    <!-- Center Staff -->
+    <line x1="60" y1="25" x2="60" y2="95" stroke-width="6" />
+    <!-- Center Tip -->
+    <polygon points="60,20 55,30 65,30" fill="url(#gold)" stroke-width="0" />
+    
+    <!-- U shape for side prongs -->
+    <path d="M 35,40 C 35,75 85,75 85,40" stroke-width="6" />
+    
+    <!-- Left Tip -->
+    <polygon points="35,35 30,45 40,45" fill="url(#gold)" stroke-width="0" />
+    <!-- Right Tip -->
+    <polygon points="85,35 80,45 90,45" fill="url(#gold)" stroke-width="0" />
+    
+    <!-- Horizontal lines for Damaru bindings -->
+    <line x1="50" y1="65" x2="70" y2="65" stroke-width="4" />
+    <line x1="53" y1="72" x2="67" y2="72" stroke-width="4" />
+  </g>
+</svg>

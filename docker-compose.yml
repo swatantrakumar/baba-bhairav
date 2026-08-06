@@ -1,0 +1,41 @@
+version: '3.8'
+
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: swatantrakumarthakuar/baba-bhairav-temple:latest
+    container_name: baba-bhairav-app
+    ports:
+      - "3001:3000"
+    environment:
+      # Override the DB URL to use the 'db' container name instead of localhost
+      - DATABASE_URL=postgresql://admin:password@db:5432/bababhairav?schema=public
+      - NEXTAUTH_SECRET=${NEXTAUTH_SECRET:-your-super-secret-key-change-in-production}
+      - NEXTAUTH_URL=http://localhost:3001
+    depends_on:
+      db:
+        condition: service_healthy
+    restart: always
+
+  db:
+    image: postgres:15
+    container_name: baba-bhairav-db
+    environment:
+      POSTGRES_USER: admin
+      POSTGRES_PASSWORD: password
+      POSTGRES_DB: bababhairav
+    ports:
+      - "5433:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U admin -d bababhairav"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+    restart: always
+
+volumes:
+  postgres_data:

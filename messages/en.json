@@ -1,0 +1,71 @@
+{
+  "Navigation": {
+    "home": "Home",
+    "location": "Location",
+    "login": "Login",
+    "signup": "Sign Up",
+    "donate": "Donate",
+    "darshan": "Live Darshan",
+    "about": "About",
+    "gallery": "Gallery"
+  },
+  "Home": {
+    "title": "Baba Bhairav Sthan",
+    "subtitle": "Aanad Bhairav Temple, Barahsher",
+    "welcome": "Welcome to the sacred abode of Baba Bhairav. May His divine blessings guide you.",
+    "historyTitle": "Temple History",
+    "historyText": "Baba Bhairav Sthan is a revered pilgrimage site in Barahsher, known for its spiritual significance and vibrant festivals like Shivratri.",
+    "aboutTitle": "About Baba Bhairav Sthan",
+    "aboutText": "Baba Bhairav Sthan is a highly revered ancient temple located in Barahsher, known for its powerful spiritual presence and deep historical roots. Devotees from all over gather here to seek the blessings of Baba Bhairav, the fierce manifestation of Lord Shiva, who is the protector and the ultimate bestower of grace. The temple serves as a beacon of faith, drawing thousands during special occasions and daily darshan.",
+    "readFullHistory": "Read Full History",
+    "galleryTitle": "Temple Gallery",
+    "viewAll": "View All →",
+    "testimonialsTitle": "Devotee Experiences",
+    "liveDarshan": "Live Darshan",
+    "donation": "Donation",
+    "visitBaba": "Visit Baba Bhairav Sthan"
+  },
+  "Location": {
+    "title": "How to Reach",
+    "description": "Baba Bhairav Sthan is located in Barahsher. You can easily reach the temple via the nearest major routes."
+  },
+  "Auth": {
+    "loginTitle": "Login to your account",
+    "signupTitle": "Create an account",
+    "emailLabel": "Email Address",
+    "passwordLabel": "Password",
+    "loginButton": "Login",
+    "signupButton": "Sign Up",
+    "forgotPassword": "Forgot Password?",
+    "noAccount": "Don't have an account?",
+    "haveAccount": "Already have an account?"
+  },
+  "Header": {
+    "marquee": "★ Shri Baba Bhairav Sthan Trust welcomes you ★ Daily Darshan Available ★ Explore the Temple History ★"
+  },
+  "Gallery": {
+    "title": "Temple Gallery",
+    "subtitle": "Glimpses of divine moments at Shri Baba Bhairav Sthan",
+    "all": "All",
+    "noImages": "No images found for this year."
+  },
+  "About": {
+    "title": "About Baba Bhairav Sthan",
+    "subtitle": "History and Significance",
+    "p1": "Located in the spiritual heart of Barahsher, Bihar, Shri Baba Bhairav Sthan stands as a monumental symbol of faith, devotion, and divine power. Dedicated to Baba Bhairav—a fierce and powerful manifestation of Lord Shiva—the temple has been a spiritual haven for generations of devotees.",
+    "p2": "According to ancient lore, the manifestation of Baba Bhairav occurred to protect the righteous and destroy ignorance. Devotees believe that a mere glimpse (darshan) of the deity at this sacred location can cleanse the soul, remove obstacles, and grant liberation. The aura of the temple is intensely powerful yet deeply peaceful, striking a balance between divine fierceness and boundless compassion.",
+    "p3": "The architecture of the temple reflects traditional styles, preserving its historical integrity while accommodating the growing number of pilgrims. Daily rituals, including the grand evening Aarti, are performed with utmost devotion and strict adherence to Vedic traditions.",
+    "p4": "The Trust managing the temple works tirelessly to maintain the premises, organize annual festivals like Maha Shivratri and Sawan Mela, and provide charitable services (Anna Daan) to the needy, ensuring that the teachings of compassion and righteousness continue to flourish."
+  },
+  "Footer": {
+    "brand": "Shri Baba Bhairav Sthan",
+    "location": "BARAHSHER, BIHAR",
+    "description": "Dedicated to the fierce manifestation of Lord Shiva, Baba Bhairav Sthan is a beacon of spiritual awakening, peace, and devotion. Join us in daily darshan and seek the divine blessings of Baba.",
+    "quickLinks": "Quick Links",
+    "contactUs": "Contact Us",
+    "address": "Baba Bhairav Sthan,<br/>Barahsher, Bihar 852107<br/>India",
+    "rights": "© 2026 Shri Baba Bhairav Sthan Trust. All Rights Reserved.",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service"
+  }
+}
